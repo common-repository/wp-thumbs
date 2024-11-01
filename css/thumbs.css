@@ -1,0 +1,120 @@
+.wp-thumbs-div {
+    display:inline-block;
+}
+
+.wp-thumbs-like-thumb {
+    background:url(../images/like-thumb.jpg) no-repeat center center;
+    cursor:pointer;
+    width: 30px;
+    height: 27px;
+    border: none;
+    color: transparent;
+    float: left;
+    margin-right: 5px;
+}
+.wp-thumbs-dislike-thumb {
+    background:url(../images/dislike-thumb.jpg) no-repeat center center;
+    cursor:pointer;
+    width: 30px;
+    height: 27px;
+    border: none;
+    color: transparent;
+    float: left;
+    margin-right: 5px;
+}
+
+.wp-thumbs-like-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background-color:#3d94f6;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:4px 8px;
+    margin-right: 5px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+    float: left;
+}.wp-thumbs-like-button:hover {
+	background-color:#1e62d0;
+}.wp-thumbs-like-button:active {
+	position:relative;
+	top:1px;
+}
+
+.wp-thumbs-dislike-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background-color:#3d94f6;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:4px 8px;
+    margin-right: 5px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+    float: left;
+}.wp-thumbs-dislike-button:hover {
+	background-color:#1e62d0;
+}.wp-thumbs-dislike-button:active {
+	position:relative;
+	top:1px;
+}
+
+.wp-thumbs-counter-like {
+    float: left; margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.wp-thumbs-counter-dislike {
+    float: left; margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wp-thumbs-message {
+    position:absolute;
+    margin-top:-55px;
+    float:left;
+    -moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+    border:1px solid #337fed;
+    background-color: #3d94f6;    
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.wp-thumbs-graph-main {
+    background:#fff;
+    border: solid #000 thin;
+}
+
+.wp-thumbs-graph-likes {
+    background:#6EA19A;
+    text-align:center;color:#fff;float:left;
+}
+
+.wp-thumbs-graph-dislikes {
+    background: #DF2B0B;
+    text-align:center;color:#fff;text-decoration:bold;float:left;
+}
+
+.wp-thumbs-graph-clicks {
+    font-size:11px;
+}
